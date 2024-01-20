@@ -31,7 +31,7 @@ done
 ```
 for ((i=1;i<=11;i++)); do
 	export username="awslabuser$i"
-	aws iam add-user-to-group --user-name $username --group-name $admingroupname
+	aws iam add-user-to-group --user-name $username --group-name $adminsgroupname
 done
 ```
 
