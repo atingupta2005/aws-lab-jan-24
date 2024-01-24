@@ -17,4 +17,3 @@ aws configure
 ```
 jupyter notebook
 ```
-"# aws-cleanup" 

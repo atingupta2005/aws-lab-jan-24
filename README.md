@@ -93,8 +93,4 @@ aws iam detach-group-policy --policy-arn arn:aws:iam::aws:policy/ReadOnlyAccess 
 ```
 aws iam delete-group --group-name $readonlyusersgroupname
 aws iam delete-group --group-name $adminsgroupname
-<<<<<<< HEAD
-```"# aws-cleanup" 
-=======
 ```
->>>>>>> f3e8fb98f057c258081ea8bcbdc829d6d303d167
