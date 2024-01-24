@@ -31,7 +31,7 @@ done
 ```
 for ((i=1;i<=11;i++)); do
 	export username="awslabuser$i"
-	aws iam add-user-to-group --user-name $username --group-name $admingroupname
+	aws iam add-user-to-group --user-name $username --group-name $adminsgroupname
 done
 ```
 
@@ -93,4 +93,8 @@ aws iam detach-group-policy --policy-arn arn:aws:iam::aws:policy/ReadOnlyAccess 
 ```
 aws iam delete-group --group-name $readonlyusersgroupname
 aws iam delete-group --group-name $adminsgroupname
+<<<<<<< HEAD
 ```"# aws-cleanup" 
+=======
+```
+>>>>>>> f3e8fb98f057c258081ea8bcbdc829d6d303d167
